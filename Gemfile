@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in pekobot.gemspec
+gem 'ruboty-slack'
+gem 'ruboty-google_image'
+gem 'ruboty-weather'
+
 gemspec
+
