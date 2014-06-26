@@ -4,7 +4,7 @@ ruby '2.1.2'
 
 gem 'ruboty-slack'
 gem 'ruboty-google_image'
-gem 'ruboty-weather', github: 'ryopeko/ruboty-weather'
+gem 'ruboty-weather'
 
 gemspec
 
