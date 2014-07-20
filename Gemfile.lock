@@ -25,6 +25,8 @@ GEM
       addressable (>= 2.3.1)
       extlib (>= 0.9.15)
       multi_json (>= 1.0.0)
+    chrono (0.0.4)
+      activesupport
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
@@ -61,6 +63,10 @@ GEM
       dotenv
       mem
       slop
+    ruboty-cron (0.0.9)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
@@ -92,6 +98,7 @@ DEPENDENCIES
   bundler (~> 1.6)
   pekobot!
   rake
+  ruboty-cron
   ruboty-google_calendar!
   ruboty-google_image
   ruboty-slack
